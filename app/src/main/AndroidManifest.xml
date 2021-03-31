@@ -10,19 +10,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.rajendra.onlineLeraning.CoursePage"></activity>
-        <activity android:name="com.rajendra.onlineLeraning.MainActivity">
+        <activity android:name="com.example.onlinelearning.CoursePage"></activity>
+        <activity android:name="com.example.onlinelearning.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.rajendra.onlineLeraning.Video_music"></activity>
-        <activity android:name="com.rajendra.onlineLeraning.Save_Data"></activity>
-        <activity android:name="com.rajendra.onlineLeraning.More"></activity>
-        <activity android:name="com.rajendra.onlineLeraning.Music"></activity>
-        <activity android:name="com.rajendra.onlineLeraning.Animation"></activity>
+        <activity android:name="com.example.onlinelearning.Video_music"></activity>
+        <activity android:name="com.example.onlinelearning.Save_Data"></activity>
+        <activity android:name="com.example.onlinelearning.More"></activity>
+        <activity android:name="com.example.onlinelearning.Music"></activity>
+        <activity android:name="com.example.onlinelearning.Animation"></activity>
+        <activity android:name="com.example.onlinelearning.fragment"></activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

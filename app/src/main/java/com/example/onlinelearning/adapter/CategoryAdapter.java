@@ -14,12 +14,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.onlinelearning.CoursePage;
 import com.example.onlinelearning.MainActivity;
+import com.example.onlinelearning.R;
 import com.example.onlinelearning.model.Category;
 
 
 import java.util.List;
 
-public class CategoryAdapter extends RecyclerView.Adapter<com.example.onlinelearning.adapter.CategoryAdapter> {
+public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder> {
 
     private Context context;
     List<Category> categoryList;

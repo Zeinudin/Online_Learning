@@ -16,7 +16,7 @@ import com.example.onlinelearning.model.PlayList;
 
 import java.util.List;
 
-public class CourseAdapter extends RecyclerView.Adapter<com.example.onlinelearning.adapter.CourseAdapter> {
+public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.CourseViewHolder> {
 
     Context context;
     List<PlayList> playLists;
